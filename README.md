@@ -1,6 +1,6 @@
 Twitter: @NeetNort<br>
 One off example I made for fun to test an idea... use it for reference if you'd like. 
-Please note that the ignored_words.txt file is thrown together quickly, is very incomplete, and likely outright ignores viable candidate words.
+Please note that the ignored_words.txt file is thrown together quickly, is very incomplete, and likely outright ignores viable candidate words. Please also note that the file '50000_airdrop_tweets_since_20221001.json' was > 100mb and I am far too lazy to setup Git LFS for this. You'll have to run the command below and generate your own.
 
 # Run snscrape command:
     snscrape --jsonl --progress --max-results 50000 twitter-search "airdrop since:2022-10-01 until:2022-11-14" > 50000_airdrop_tweets_since_20221001.json
