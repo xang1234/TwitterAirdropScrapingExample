@@ -1,4 +1,4 @@
-Twitter: @NeetNort
+Twitter: @NeetNort<br>
 One off example I made for fun to test an idea... use it for reference if you'd like. 
 Please note that the ignored_words.txt file is thrown together quickly, is very incomplete, and likely outright ignores viable candidate words.
 
