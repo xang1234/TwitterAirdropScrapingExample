@@ -1,6 +1,7 @@
-ignore/
 venv/
 
-# Files are > 100MB blah blah, I'm not setting up Git LFS for this - sorry lads. You'll have to scrape your own tweets.
-50000_airdrop_tweets_since_20221001.json
-airdrop_tweets.json
+# Ignoring tweet files >100mb to avoid Git LFS :)
+tweets/aggregated_tweets.json
+tweets/airdrop_tweets_49.json
+tweets/airdrop_tweets_69.json
+tweets/airdrop_tweets_51.json
