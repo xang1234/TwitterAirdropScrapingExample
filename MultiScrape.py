@@ -4,6 +4,7 @@ Parallelized extension of iteration 1
 """
 from dataclasses import dataclass
 import subprocess
+import time
 
 @dataclass
 class Process:
@@ -125,6 +126,8 @@ def scrape():
             ).getProcessArgs(),
             shell=True
         )
+        time.sleep(1) # NOTE: When in doubt, simply sleep a bit until the computer is happy and ready to do more work :)
+
 
 if __name__ == "__main__":
     scrape()
