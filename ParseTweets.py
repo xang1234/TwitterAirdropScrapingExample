@@ -1,6 +1,6 @@
 import json, string, collections, pprint
 
-with open('50000_airdrop_tweets_since_20221001.json', 'r', encoding='utf-8') as tweetsJsonLinesFile:
+with open('airdrop_tweets.json', 'r', encoding='utf-8') as tweetsJsonLinesFile: # NOTE: Additional test with ~300,000 airdrop tweets in november
     allJson = {i: json.loads(line) for i, line in enumerate(tweetsJsonLinesFile)}
 
 with open('ignored_words.txt', 'r') as ignoredWordsFile:

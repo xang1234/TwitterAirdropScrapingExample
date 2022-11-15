@@ -1,5 +1,6 @@
 ignore/
 venv/
 
-# File is > 100MB blah blah, I'm not setting up Git LFS for this - sorry lads. You'll have to scrape your own tweets.
+# Files are > 100MB blah blah, I'm not setting up Git LFS for this - sorry lads. You'll have to scrape your own tweets.
 50000_airdrop_tweets_since_20221001.json
+airdrop_tweets.json
