@@ -15,4 +15,4 @@ def isValidWord(strippedWord: str) -> str:
     return strippedWord
 
 validWords = collections.Counter([validWord for tweet in allJson.values() for word in tweet['content'].strip().split() if (validWord := isValidWord(word))])
-pprint.pprint(validWords.most_common(500))
+pprint.pprint(validWords.most_common(1000))
