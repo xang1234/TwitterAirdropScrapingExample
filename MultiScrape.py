@@ -116,7 +116,8 @@ def scrape():
     for dayNumber, sinceUntil in enumerate(DAYS_LIST):
         subprocess.Popen(
             Process(
-                QUERY, sinceUntil[0],
+                QUERY,
+                sinceUntil[0],
                 sinceUntil[1],
                 MAX_RESULTS,
                 BASE_OUTFILE_LOCATION + f"{dayNumber + 1}.json",
